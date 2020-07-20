@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="myPink">#D753ED</color>
+    <color name="myRed">#D80027</color>
+    <color name="myBlue">#0052B4</color>
+    <color name="myOrange">#FF9811</color>
+    <color name="myBlack">#FF000000</color>
+    <color name="myYellow">#FFDA44</color>
+    <color name="myWhite">#F0F0F0</color>
+    <color name="myGreen">#3C8E40</color>
+</resources>
