@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".task_1_1"></activity>
+        <activity android:name=".Task6"></activity>
+        <activity android:name=".Task5" />
+        <activity android:name=".Task_4_3" />
+        <activity android:name=".Task_4_2" />
+        <activity android:name=".Task_4_1" />
+        <activity android:name=".Task_3_3" />
+        <activity android:name=".Task_3_2" />
+        <activity android:name=".Task_3_1" />
+        <activity android:name=".Task_2_3" />
+        <activity android:name=".Task_2_2" />
+        <activity android:name=".Task_2_1" />
+        <activity android:name=".Task_1_2" />
+        <activity android:name=".Task_1_1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
