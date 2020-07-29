@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Menu</string>
+    <string name="app_name">POI</string>
     <string name="button1_1">Task 1.1</string>
     <string name="button1_2">Task 1.2</string>
     <string name="button1_3">Task 1.3</string>
@@ -13,5 +13,15 @@
     <string name="button4_2">Task 4.2</string>
     <string name="button4_3">Task 4.3</string>
     <string name="button5">Task 5</string>
-    <string name="button6">Task 6</string>
+
+    <string name="task1_p1">Attractions</string>
+    <string name="task1_p2">Dining</string>
+    <string name="task1_p3">Education</string>
+    <string name="task1_p4">Family</string>
+    <string name="task1_p5">Health</string>
+    <string name="task1_p6">Office</string>
+    <string name="task1_p7">Promotions</string>
+    <string name="task1_p8">Radio</string>
+    <string name="task1_p9">Recipes</string>
+    <string name="task1_p10">Sports</string>
 </resources>

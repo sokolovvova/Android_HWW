@@ -3,6 +3,7 @@ package com.example.homework2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class Task_1_1 extends AppCompatActivity {
 
@@ -11,4 +12,5 @@ public class Task_1_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task_1_1);
     }
+
 }

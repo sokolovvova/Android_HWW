@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
     <Button
-        android:onClick="onClick1_1Button"
         android:id="@+id/button1_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,7 +15,6 @@
         android:text="@string/button1_1"
         />
     <Button
-        android:onClick="onClick1_2Button"
         android:id="@+id/button1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +25,6 @@
         android:text="@string/button1_2"
         />
     <Button
-        android:onClick="onClick1_3Button"
         android:id="@+id/button1_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,7 +34,6 @@
         />
 
     <Button
-        android:onClick="onClick2_1Button"
         android:id="@+id/button2_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,7 +42,6 @@
         android:text="@string/button2_1"
         />
     <Button
-        android:onClick="onClick2_2Button"
         android:id="@+id/button2_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,7 +50,6 @@
         android:text="@string/button2_2"
         />
     <Button
-        android:onClick="onClick2_3Button"
         android:id="@+id/button2_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,7 +58,6 @@
         android:text="@string/button2_3"
         />
     <Button
-        android:onClick="onClick3_1Button"
         android:id="@+id/button3_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -73,7 +66,6 @@
         android:text="@string/button3_1"
         />
     <Button
-        android:onClick="onClick3_2Button"
         android:id="@+id/button3_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -82,13 +74,44 @@
         android:text="@string/button3_2"
         />
     <Button
-        android:onClick="onClick3_3Button"
         android:id="@+id/button3_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toRightOf="@id/button3_2"
         app:layout_constraintTop_toBottomOf="@id/button2_2"
         android:text="@string/button3_3"
+        />
+    <Button
+        android:id="@+id/button4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toLeftOf="@id/button4_2"
+        app:layout_constraintTop_toBottomOf="@id/button3_2"
+        android:text="@string/button4_1"
+        />
+    <Button
+        android:id="@+id/button4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@id/button3_2"
+        app:layout_constraintTop_toBottomOf="@id/button3_2"
+        android:text="@string/button4_2"
+        />
+    <Button
+        android:id="@+id/button4_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/button4_2"
+        app:layout_constraintTop_toBottomOf="@id/button3_2"
+        android:text="@string/button4_3"
+        />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@id/button4_2"
+        app:layout_constraintTop_toBottomOf="@id/button4_2"
+        android:text="@string/button5"
         />
 
 
