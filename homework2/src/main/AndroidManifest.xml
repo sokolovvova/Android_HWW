@@ -9,20 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Task_1_3"/>
-        <activity android:name=".Task_5" />
-        <activity android:name=".Task_4_3" />
-        <activity android:name=".Task_4_2" />
-        <activity android:name=".Task_4_1" />
-        <activity android:name=".Task_3_3" />
-        <activity android:name=".Task_3_2" />
-        <activity android:name=".Task_3_1" />
-        <activity android:name=".Task_2_3" />
-        <activity android:name=".Task_2_2" />
-        <activity android:name=".Task_2_1" />
+        <activity android:name=".Task_5" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_4_3" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_4_2" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_4_1" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_3_3" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_3_2" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_3_1" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_2_3" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_2_2" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Task_2_1" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".Task_1_2" />
         <activity android:name=".Task_1_1" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

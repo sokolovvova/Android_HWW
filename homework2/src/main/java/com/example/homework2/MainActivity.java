@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button button_1_1 = findViewById(R.id.button1_1);
         Button button_1_2 = findViewById(R.id.button1_2);
-        Button button_1_3 = findViewById(R.id.button1_3);
         Button button_2_1 = findViewById(R.id.button2_1);
         Button button_2_2 = findViewById(R.id.button2_2);
         Button button_2_3 = findViewById(R.id.button2_3);
@@ -31,7 +30,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         button_1_1.setOnClickListener(this);
         button_1_2.setOnClickListener(this);
-        button_1_3.setOnClickListener(this);
         button_2_1.setOnClickListener(this);
         button_2_2.setOnClickListener(this);
         button_2_3.setOnClickListener(this);
@@ -55,10 +53,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button1_2:
                 Intent intent1_2 = new Intent(this,Task_1_2.class);
                 startActivity(intent1_2);
-                break;
-            case R.id.button1_3:
-                Intent intent1_3 = new Intent(this,Task_1_3.class);
-                startActivity(intent1_3);
                 break;
             case R.id.button2_1:
                 Intent intent2_1 = new Intent(this,Task_2_1.class);

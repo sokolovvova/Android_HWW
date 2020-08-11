@@ -24,14 +24,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/button1_2"
         />
-    <Button
-        android:id="@+id/button1_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toRightOf="@id/button1_2"
-        app:layout_constraintTop_toTopOf="@id/button1_1"
-        android:text="@string/button1_3"
-        />
 
     <Button
         android:id="@+id/button2_1"

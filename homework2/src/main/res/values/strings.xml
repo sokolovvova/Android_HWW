@@ -24,4 +24,11 @@
     <string name="task1_p8">Radio</string>
     <string name="task1_p9">Recipes</string>
     <string name="task1_p10">Sports</string>
+
+    <string name="task2_title">Title</string>
+    <string name="task2_price">Price</string>
+    <string name="task2_location">Location</string>
+    <string name="task2_description">Description</string>
+    <string name="task2_inv">Inventory</string>
+    <string name="task2_weight">Weight</string>
 </resources>
