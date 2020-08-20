@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Task_2_1">
+    tools:context=".SecondActivity">
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="100pt"
+            android:layout_height="150dp"
             android:layout_weight="2">
             <ImageView
                 android:layout_width="match_parent"
@@ -15,19 +15,19 @@
                 android:src="@drawable/ic_drawing"
                 android:scaleType="fitXY"/>
             <ImageView
-                android:layout_width="15pt"
-                android:layout_height="15pt"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/ic_baseline_photo_camera_24"
                 android:layout_gravity="bottom|end"
-                android:layout_marginEnd="5pt"
-                android:layout_marginBottom="5pt"/>
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"/>
         </FrameLayout>
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="7pt"
-            android:layout_marginEnd="7pt"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
             android:orientation="horizontal">
             <EditText
                 android:layout_width="match_parent"
@@ -36,39 +36,36 @@
                 android:text="@string/task2_title"
                 android:textColor="@color/grey"/>
         </LinearLayout>
-
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginStart="7pt"
-            android:layout_marginEnd="7pt">
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
             <EditText
                 android:layout_weight="10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/task2_price"
                 android:textColor="@color/grey"
-                android:layout_gravity="bottom"
-                />
+                android:layout_gravity="bottom" />
             <EditText
                 android:layout_weight="4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="7pt"
+                android:layout_marginLeft="15dp"
                 android:text="@string/task2_location"
                 android:textColor="@color/grey"
                 android:drawableEnd="@drawable/ic_baseline_location_on_24"
-                android:layout_gravity="bottom"
-                />
+                android:layout_gravity="bottom" />
         </LinearLayout>
     <LinearLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="7pt"
-        android:layout_marginEnd="7pt"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         android:orientation="horizontal">
         <EditText
             android:layout_width="match_parent"
@@ -82,29 +79,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginStart="7pt"
-            android:layout_marginEnd="7pt">
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/task2_inv"
                 android:textColor="@color/grey"
                 android:layout_weight="2"
-                android:layout_gravity="bottom"
-                />
+                android:layout_gravity="bottom" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="5"
-                />
+                android:layout_weight="5" />
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/task2_weight"
                 android:textColor="@color/grey"
                 android:layout_weight="2"
-                android:layout_gravity="bottom"
-                />
+                android:layout_gravity="bottom" />
         </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
