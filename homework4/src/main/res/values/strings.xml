@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Custom view</string>
+    <string name="rb1">Toast</string>
+    <string name="rb2">Snackbar</string>
+    <string name="header1">Custom View</string>
+    <string name="header2">Settings</string>
+    <string name="preferences_file">appsetting</string>
+</resources>
