@@ -13,7 +13,7 @@ import com.example.homework5.db.ContactsDatabase
 import java.util.*
 
 class ContactListAdapter(private val myOnItemListener: OnItemListener) : RecyclerView.Adapter<ContactListAdapter.ContactViewHolder>() {
-    var contactList = ArrayList<ContactItem>()
+    private var contactList = ArrayList<ContactItem>()
 
     fun updateContactList(context : Context){
         contactList = ContactsDatabase.getInstance(context).contactDao().getAll().toCollection(ArrayList<ContactItem>())
