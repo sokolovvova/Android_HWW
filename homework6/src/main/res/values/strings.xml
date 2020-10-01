@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Homework6</string>
+    <string name="search_hint">Search contacts</string>
+    <string name="activity_name1">Add contact</string>
+    <string name="activity_name2">Edit contact</string>
+    <string name="rb1">Phone number</string>
+    <string name="rb2">Email</string>
+    <string name="hint1">Name</string>
+    <string name="hint2">Phone number</string>
+    <string name="hint3">Email</string>
+    <string name="buttonText">Remove</string>
+</resources>
