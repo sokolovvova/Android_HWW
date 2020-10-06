@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">homework7</string>
+    <string name="start">Start logger</string>
+    <string name="stop">Stop logger</string>
+    <string name="rb1">Internal Storage</string>
+    <string name="rb2">External Storage</string>
+</resources>
