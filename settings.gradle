@@ -1,3 +1,5 @@
+include ':homework9_receiver'
+include ':homework9_provider'
 include ':homework8'
 include ':homework7'
 include ':homework6'
